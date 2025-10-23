@@ -6,20 +6,24 @@ A modern React application template built with Vite, featuring a clean project s
 
 ```
 react-skeleton-prism/
+├── dist/                      # Production build output (generated)
+├── node_modules/              # Installed dependencies (generated)
+├── public/                    # Static assets served as-is
 ├── src/
-│   ├── index.html       # HTML entry point
-│   ├── main.jsx        # React application entry point
-│   ├── components/     # Reusable React components
-│   │   ├── Button.jsx
+│   ├── components/            # Reusable React components
 │   │   ├── Header.jsx
+│   │   ├── SideMenuButton.jsx
 │   │   └── SiteLayout.jsx
-│   └── styles/        # CSS styles
-│       └── styles.css # Global styles
-├── public/            # Static assets
-├── dist/             # Production build output (generated)
-├── package.json      # Project dependencies and scripts
-├── vite.config.js    # Vite configuration
-└── README.md         # Project documentation
+│   ├── styles/
+│   │   └── app.css            # Global styles
+│   ├── index.html             # HTML entry (Vite expects at project root or configured root)
+│   ├── App.jsx                # Root component
+│   └── main.jsx               # React application entry point
+├── .gitignore
+├── package-lock.json
+├── package.json               # Project scripts and dependencies
+├── vite.config.js             # Vite configuration
+└── README.md                  # Project documentation
 ```
 
 ## Prerequisites
