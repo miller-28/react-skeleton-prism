@@ -48,7 +48,7 @@ body {
 .page {
   min-height: 100%;
   display: grid;
-  place-items: center;
+  place-items: baseline center ;
   padding: 2rem;
 }
 
