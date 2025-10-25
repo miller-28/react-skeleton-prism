@@ -121,7 +121,7 @@ The project uses a custom Vite configuration (`vite.config.js`):
 | Command         | Description                                                                                    |
 | --------------- | ---------------------------------------------------------------------------------------------- |
 | `npm install`   | Install project dependencies                                                                   |
-| `npm run dev`   | Start development server with hot reload at [http://localhost:5173](http://localhost:5173)     |
+| `npm run dev`   | Start development server with hot reload at [http://localhost:2800](http://localhost:2800)     |
 | `npm run build` | Build the app for production to the `dist` folder                                             |
 | `npm run preview`| Preview the production build locally at [http://localhost:2800](http://localhost:2800)        |
 
